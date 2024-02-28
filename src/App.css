@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.award-details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background: #e5e3b524;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.award-images {
+  max-width: 100%;
+  height: 950px;
+}
+
+.container-bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.award2-image {
+  max-width: auto;
+  height: auto;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #d3cd232e;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.machine-image {
+  width: 80%;
+  height: auto;
+  margin: 0 10px;
+}
+
+.hr {
+  border-color: red;
+  background: #d3cd232e;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #d3cd232e;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: #d31515eb;
+  border: 2px #d31515eb;
+  border-radius: 5px;
+  color: #fff;
+  height: 120px;
+  padding-bottom: 60px;
+}
+
+.media {
+  padding: 7px;
+}
+
+/* Mobile-first styles (default) */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Tablet styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+
+  .award2-image {
+    max-width: 170px;
+    height: auto;
+    overflow-x: hidden;
+  }
+}
+
+/* Laptop/desktop styles */
+@media (max-width: 924px) {
+  body {
+    font-size: 16px;
+  }
+
+  .award-details {
+    display: flex;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    height: auto;
+    max-width: fit-content;
+  }
+
+  .award-images {
+    max-width: auto;
+    height: auto;
+  }
+
+  .award2-image {
+    max-width: 200px;
+    height: auto;
+    overflow-x: hidden;
+  }
+}
+
+/* Big screen styles */
+@media (max-width: 1201px) {
+  body {
+    font-size: 20px;
+  }
+}
